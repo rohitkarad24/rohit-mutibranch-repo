@@ -4,7 +4,7 @@ pipeline {
 	}
 	stages {
 		stage ('multi-branch') {
-			staps {
+			steps {
 				echo "This is master branch"
 			}
 		}
